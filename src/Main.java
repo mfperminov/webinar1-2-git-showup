@@ -9,7 +9,7 @@ public class Main {
 
             Student student = new Student(name, id, grade1, grade2);
 
-            System.out.println("Student");
+            System.out.println("Студент");
             System.out.println("Student name: " + student.getName());
             System.out.println("Student id: " + student.getId());
             System.out.println("Student average grade: " + student.getAverageGrade());
