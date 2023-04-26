@@ -15,6 +15,8 @@ public class Main {
             System.out.println("Student average grade: " + student.getAverageGrade());
 
             String endQuestion = input.getStringInput("Finish? ");
+            input.eatNewline();
+
             if (endQuestion.equalsIgnoreCase("yes")) {
                 System.out.println("Exit");
                 break;

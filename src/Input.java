@@ -18,4 +18,8 @@ public class Input {
         System.out.println(message);
         return scanner.nextDouble();
     }
+
+    public void eatNewline() {
+        scanner.nextLine();
+    }
 }
